@@ -1,0 +1,203 @@
+{
+  "crypto_currencies": [
+    {
+      "id": 1,
+      "name": "Bitcoin",
+      "type": "BTC",
+      "price": 3285553.73,
+      "change": 1.06,
+      "marketCap": 60.1,
+      "isWatchlisted": true
+    }
+  ],
+  "wallets":[
+      {
+        "id": 1,
+        "iconURL": "USDCoinIcon",
+        "coinName": "USDC",
+        "balance": "5678.90"
+      },
+      {
+        "id": 2,
+        "iconURL": "BitcoinIcon",
+        "coinName": "Bitcoin",
+        "balance": "2.3456"
+      },
+      {
+        "id": 3,
+        "iconURL": "EthereumIcon",
+        "coinName": "Ethereum",
+        "balance": "98.7654"
+      }
+    ],
+  "transactions": [
+    {
+      "id": 1,
+      "assetName": "Bitcoin",
+      "persona": "Badgley",
+      "action": "Purchased",
+      "assetValue": "0.0010 BTC",
+      "assetUsdValue": 900,
+      "transactionDate": "2023-02-28",
+      "transactionStatus": "warning"
+    },
+    {
+      "id": 2,
+      "assetName": "Bitcoin",
+      "persona": "Jane Cooper",
+      "action": "Purchased",
+      "assetValue": "0.0010 BTC",
+      "assetUsdValue": 1800,
+      "transactionDate": "2023-02-25",
+      "transactionStatus": "fail"
+    },
+    {
+      "id": 3,
+      "assetName": "Bitcoin",
+      "persona": "Leslie Alexander",
+      "action": "Purchased",
+      "assetValue": "0.0030 BTC",
+      "assetUsdValue": 1200,
+      "transactionDate": "2023-02-20",
+      "transactionStatus": "success"
+    },
+    {
+      "id": 4,
+      "assetName": "Bitcoin",
+      "persona": "Guy Hawkins",
+      "action": "Purchased",
+      "assetValue": "0.0150 BTC",
+      "assetUsdValue": 1000,
+      "transactionDate": "2023-02-18",
+      "transactionStatus": "success"
+    },
+    {
+      "id": 5,
+      "assetName": "Bitcoin",
+      "persona": "Jenny Wilson",
+      "action": "Purchased",
+      "assetValue": "0.0650 BTC",
+      "assetUsdValue": 3200,
+      "transactionDate": "2023-02-1",
+      "transactionStatus": "success"
+    },
+    {
+      "id": 6,
+      "assetName": "Bitcoin",
+      "persona": "Jacob Jones",
+      "action": "Purchased",
+      "assetValue": "0.0900 BTC",
+      "assetUsdValue": 9000,
+      "transactionDate": "2023-02-13",
+      "transactionStatus": "success"
+    },
+    {
+      "id": 7,
+      "assetName": "Bitcoin",
+      "persona": "Theresa Webb",
+      "action": "Purchased",
+      "assetValue": "0.0020 BTC",
+      "assetUsdValue": 1800,
+      "transactionDate": "2023-02-10",
+      "transactionStatus": "success"
+    },
+    {
+      "id": 8,
+      "assetName": "Ethereum",
+      "persona": "Badgley",
+      "action": "Purchased",
+      "assetValue": "0.32345 ETH",
+      "assetUsdValue": 408.58,
+      "transactionDate": "2023-03-5",
+      "transactionStatus": "warning"
+    },
+    {
+      "id": 9,
+      "assetName": "Ethereum",
+      "persona": "Theresa Webb",
+      "action": "Purchased",
+      "assetValue": "0.20 ETH",
+      "assetUsdValue": 240.01,
+      "transactionDate": "2023-03-6",
+      "transactionStatus": "success"
+    }
+  ],
+  "portfolio-graph": [
+    {
+      "id": 1,
+      "investmentAmount": 119002,
+      "value": -1.2,
+      "investedAsset": "Bitcoin",
+      "investedAssetAmount": 12400,
+      "investedAssetChange": 8.2,
+      "assetHistory": {
+        "name": "Bitcoin",
+        "data": [
+          40,
+          43,
+          45,
+          42,
+          44,
+          46
+        ]
+      },
+      "xaxis": [
+        "Jun 8",
+        "Jun 15",
+        "Jun 22",
+        "Jun 30",
+        "Jul 7",
+        "Jul 13"
+      ],
+      "totalInvestments": {
+        "name": "Total investment",
+        "data": [
+          34,
+          54,
+          23,
+          90,
+          12,
+          34
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "investmentAmount": 110204,
+      "value": -1.2,
+      "investedAsset": "Ethereum",
+      "investedAssetAmount": 12400,
+      "investedAssetChange": 8.2,
+      "assetHistory": {
+        "name": "Ethereum",
+        "data": [
+          40,
+          43,
+          45,
+          42,
+          44,
+          46
+        ]
+      },
+      "xaxis": [
+        "Jun 8",
+        "Jun 15",
+        "Jun 22",
+        "Jun 30",
+        "Jul 7",
+        "Jul 13"
+      ],
+      "totalInvestments": {
+        "name": "Total investment",
+        "data": [
+          34,
+          54,
+          23,
+          90,
+          12,
+          34
+        ]
+      }
+    }
+  ]
+}

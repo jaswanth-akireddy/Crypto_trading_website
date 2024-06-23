@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Graphik-regular";   
+  src: local("GraphikRegular"),
+    url("./fonts/GraphikRegular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Graphik-medium";   
+  src: local("GraphikMedium"),
+    url("./fonts/GraphikMedium.otf") format("truetype");
+}
+
+@font-face {
+font-family: "Graphik-semibold";
+src: local("GraphikSemibold"),
+  url("./fonts/GraphikSemibold.otf") format("truetype");
+}
