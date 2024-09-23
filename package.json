@@ -2,7 +2,7 @@
   "name": "jash_crypto_trading_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jaswanth-akireddy.github.io/crypto_trading_website",
+  "homepage": "https://jaswanth-akireddy.github.io/Crypto_trading_website/",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
@@ -26,6 +26,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "server": "json-server --watch db.json --port 3001",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -33,10 +35,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "coverage": "yarn test --coverage --watchAll",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-
+    "coverage": "yarn test --coverage --watchAll"
   },
   "eslintConfig": {
     "extends": [
