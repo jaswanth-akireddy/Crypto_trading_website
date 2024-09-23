@@ -42,7 +42,7 @@ const Footer = () => {
               variant="body2"
               children={"Legal & Privacy"}
             />
-            <StyledTypographyBlack variant="body2" children={"© 2021 Minet"} />
+            <StyledTypographyBlack variant="body2" children={"© 2024 Minet"} />
           </Stack>
         </Stack>
         <Stack direction="row" gap="16px" alignItems="center">
