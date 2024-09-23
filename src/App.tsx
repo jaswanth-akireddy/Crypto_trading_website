@@ -16,7 +16,6 @@ function App() {
     <ThemeProvider theme={theme}>
        <Routes>
     <Route path='/' element={<DashBoard/>}/> 
-    <Route path='/Crypto_trading_website' element={<DashBoard/>}/> 
     <Route path='/TradeScreen' element={<TradeScreen/>}/>
     <Route path='/purchase-screen' element={<PurchaseScreen/>}/>
     <Route path='/payment-successfull' element={<PaymentSuccessfulScreen successType='buy' price='0.0234510 BTC'/>}/>
